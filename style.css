@@ -1,0 +1,42 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  background-color: rgba(64, 211, 248, 0.274);
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+}
+.container .lista_dados {
+  display: flex;
+  width: 850px;
+  height: 500px;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.container .lista_dados .dados {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.container .lista_dados .dados .container_dados {
+}
+.container .lista_dados .dados .container_dados .barra_tamanho {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(60, 60, 187);
+  height: 15px;
+  border-radius: 8px;
+}
